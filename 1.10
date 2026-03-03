@@ -12,7 +12,7 @@ school.students = ["Анна", "Иван", "Мария"];
 
 
 const names = school.listNames();
-console.log(names); // ['Анна', 'Иван', 'Мария']
+console.log(names);
 
 
 console.log(Array.isArray(names)); 
