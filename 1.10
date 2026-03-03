@@ -6,17 +6,16 @@ class School {
     }
 }
 
-// Создаём школу
+
 const school = new School();
 school.students = ["Анна", "Иван", "Мария"];
 
-// Получаем массив имён
+
 const names = school.listNames();
 console.log(names); // ['Анна', 'Иван', 'Мария']
 
-// Проверка типа
-console.log(Array.isArray(names)); // true
-console.log(typeof names[0]); // 'string'
 
-// TypeScript проверка (ошибки не будет)
+console.log(Array.isArray(names)); 
+console.log(typeof names[0]); 
+
 const stringArray: string[] = school.listNames();
